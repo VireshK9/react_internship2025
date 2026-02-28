@@ -45,7 +45,32 @@ function App() {
         </div>
       </section>
       {/* features Section */}
-      
+      <section className="py-16 px-4">
+        <div className="max-w-6xl mx-auto text-center mb-10">
+          <h3 className="text-2xl md:text-4xl font-bold">
+            Our Features
+          </h3>
+        </div>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+              <h4 className="text-xl font-semibold mb-3">Fast Development</h4>
+              <p className="text-gray-600">Build application quickly using utility-fist CSS</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+              <h4 className="text-xl font-semibold mb-3">Responsive Design</h4>
+              <p className="text-gray-600">It works perfectly on mobile, tablet and desktop devices</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+              <h4 className="text-xl font-semibold mb-3">Customizable</h4>
+              <p className="text-gray-600">Fully customizable using tailwind.config.js</p>
+            </div>
+        </div>
+      </section>
+      {/* Footer */}
+      <footer className="bg-blue-600 text-white text-center py-6 my-10">
+              <p>@2026 CCA.All Rights Reserved</p>
+            </footer>
     </div>
   );
 }
